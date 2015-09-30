@@ -1,0 +1,63 @@
+body, td{
+    background-color: #EEEEEE;
+
+    font-size: 200%;
+}
+.navbar-header{
+    width: 100%;
+}
+#chooseActor{
+    display: none;
+
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+#chooseSeason{
+    display: none;
+
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+.legend{
+    border: 1px solid #cccccc;
+    border-radius: 10%;
+
+    box-shadow: 5px 5px 5px #888888;
+    text-align: center;
+
+    width: 100%;
+    font-size:20px;
+
+    background: 0;
+    color: #292E87;
+}
+#seasons{
+    padding-bottom: 5%;
+}
+.glyphicon-chevron-up{
+    float: right;
+}
+#divLogo{
+    padding-top: 1.5%;
+
+    width: 8%;
+}
+#friendsLogo{
+    width: 100% !important;
+    height: 80% !important;
+}
+a, #actors{
+    cursor: pointer;
+
+    color: #292E87;
+}
+a:hover{
+    text-decoration: none;
+
+    color: #292E87;
+}
+img{
+    width: 100%;
+
+    padding-bottom: 20%
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Photos</title>
+    <link rel="stylesheet" href="libraries/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="libraries/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="libraries/blueimp-Bootstrap-Image-Gallery-281af5b/css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="styles/funnyPhotos.css"/>
+    <link rel="shortcut icon" href="img/friends/fLogo.ico">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header row">
+            <div class="col-sm-11">
+                <div class="nav navbar-nav navbar-left" id="divLogo">
+                    <a class="navbar-brand" href="information.html"><img id="friendsLogo" src="img/friends/friendsLogo.png" alt="Friends"/></a>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle glyphicon glyphicon-cog" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="homePage.html">Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 dd">
+            <div>
+                <div>
+                    <a href="information.html"><button class="legend">Serial</button></a>
+                </div>
+                <div id="actors"><button class="legend">Actors</button></div>
+                <div id="chooseActor">
+                    <div>
+                        <a href="rachel.html"><button class="legend">Rachel</button></a>
+                    </div>
+                    <div>
+                        <a href="phoebe.html"><button class="legend">Phoebe</button></a>
+                    </div>
+                    <div>
+                        <a href="monica.html"><button class="legend">Monica</button></a>
+                    </div>
+                    <div>
+                        <a href="chandler.html"><button class="legend">Chandler</button></a>
+                    </div>
+                    <div>
+                        <a href="joey.html"><button class="legend">Joey</button></a>
+                    </div>
+                    <div>
+                        <a href="ross.html"><button class="legend">Ross</button></a>
+                    </div>
+                </div>
+                <div>
+                    <a href="funnyPhotos.html"><button class="legend">Photos</button></a>
+                </div>
+                <div>
+                    <a href="videos.html"><button class="legend">Videos</button></a>
+                </div>
+                <div>
+                    <a href="film.html"><button class="legend">Film</button></a>
+                </div>
+                <div id="seasons">
+                    <a href="seasons.html"><button class="legend">Seasons</button></a>
+                </div>
+                <div id="chooseSeason">
+                    <div><a href="seasons.html#season1"><button class="legend">Season 1</button></a></div>
+                    <div><a href="seasons.html#season2"><button class="legend">Season 2</button></a></div>
+                    <div><a href="seasons.html#season3"><button class="legend">Season 3</button></a></div>
+                    <div><a href="seasons.html#season4"><button class="legend">Season 4</button></a></div>
+                    <div><a href="seasons.html#season5"><button class="legend">Season 5</button></a></div>
+                    <div><a href="seasons.html#season6"><button class="legend">Season 6</button></a></div>
+                    <div><a href="seasons.html#season7"><button class="legend">Season 7</button></a></div>
+                    <div><a href="seasons.html#season8"><button class="legend">Season 8</button></a></div>
+                    <div><a href="seasons.html#season9"><button class="legend">Season 9</button></a></div>
+                    <div><a href="seasons.html#season10"><button class="legend">Season 10</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <h3>Enjoy: </h3>
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+                <div class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                            </div>
+                            <div class="modal-body next"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pull-left prev">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                    Previous
+                                </button>
+                                <button type="button" class="btn btn-primary next">
+                                    Next
+                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="links">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="libraries/jquery-1.11.3.min.js"></script>
+<script src="libraries/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script src="libraries/Gallery-master/js/jquery.blueimp-gallery.min.js"></script>
+<script src="libraries/blueimp-Bootstrap-Image-Gallery-281af5b/js/bootstrap-image-gallery.min.js"></script>
+<script src="scripts/funnyPhotos.js"></script>
+</body>
+</html>

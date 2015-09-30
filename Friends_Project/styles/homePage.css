@@ -1,0 +1,86 @@
+body, td{
+    background-color: #EEEEEE;
+
+    font-size: 200%;
+}
+.navbar-fixed-top{
+    background: transparent;
+
+    border: none;
+}
+
+#friendsImg{
+    width: 100%;
+}
+.images{
+    height: 100%;
+    width: 100%;
+}
+#divLogo{
+    font-size: 10px;
+
+    width: 100px;
+    height: 10px;
+}
+#friendsLogo{
+    width: 100% !important;
+    height: 80% !important;
+}
+.logInPicture{
+    width: 180%;
+    height: 130%;
+}
+
+#registrationForm{
+    padding-top: 5%;
+    margin-left: 40%;
+
+    width: 40%;
+}
+#register{
+    float:right;
+    text-shadow: none;
+
+    background-color: #292E87;
+    color: #ffffff;
+}
+label{
+    width: 100%;
+
+    text-align: left !important;
+    display: block;
+}
+
+
+#logInForm{
+    padding-top: 5%;
+    margin-right: 40%;
+
+    width: 40%;
+}
+#logIn{
+    float:right;
+    text-shadow: none;
+
+    background-color: #292E87;
+    color: #ffffff;
+}
+.tabs{
+    color: #292E87;
+}
+.tabs:hover{
+    color: #292E87;
+}
+a{
+    color: #292E87;
+}
+a:hover{
+    text-decoration: none;
+
+    color: #292E87;
+}
+p{
+    font-size: 14px;
+
+    padding-top: 4%;
+}

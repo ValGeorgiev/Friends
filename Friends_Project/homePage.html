@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Friends</title>
+    <link rel="stylesheet" href="libraries/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="libraries/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/homePage.css"/>
+    <link rel="shortcut icon" href="img/friends/fLogo.ico">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div id="divLogo">
+                <a class="navbar-brand" href="information.html"><img id="friendsLogo" src="img/friends/friendsLogo.png" alt="Friends"/></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-right" role="button">
+                <button type="button" id="registerButton" class="btn btn-default" data-toggle="modal" data-target="#registerModal">Sign Up</button>
+                <button type="button" id="logInButton" class="btn btn-default" data-toggle="modal" data-target="#logInModal">Log In</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<section>
+    <img id="friendsImg" src="img/friends/friends.jpg" alt="Friends"/>
+</section>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <form class="form-horizontal" id="registrationForm">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="inputUserName" class="control-label">User name</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="inputUserName" placeholder="User name...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class=" control-label">Password</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Minimum 6 signs...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkPassword" class=" control-label">Re-enter password</label>
+                        <div class="col-sm-12">
+                            <input type="password" class="form-control" id="checkPassword" placeholder="Re-enter password...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="control-label">Email</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFirstName" class="control-label">First name</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="First name...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastName" class="control-label">Last name</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Last name...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button type="button" id="register" class="btn btn-default">Sign Up</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="col-sm-6">
+            <form class="form-horizontal" id="logInForm">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="inputLogInUserName" class="control-label">User Name</label>
+                        <div class="col-lg-12">
+                            <input type="text" class="form-control" id="inputLogInUserName" placeholder="User Name...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLogInPassword" class="control-label">Password</label>
+                        <div class="col-lg-12">
+                            <input type="password" class="form-control" id="inputLogInPassword" placeholder="Minimum 6 signs...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12">
+                            <button type="button" id="logIn" class="btn btn-default">Log In</button>
+                        </div>
+                    </div>
+                    <img class="logInPicture" src="img/friends/friendsHug.jpg" alt="Friends"/>
+                </fieldset>
+            </form>
+            <br/>
+        </div>
+    </div>
+</div>
+
+<footer class="panel-footer">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#serial" class="tabs" data-toggle="tab" aria-expanded="true">About serial</a></li>
+        <li class=""><a href="#producers" class="tabs" data-toggle="tab" aria-expanded="true">About producers</a></li>
+        <li class=""><a href="#actors" class="tabs" data-toggle="tab" aria-expanded="true">About actors</a></li>
+        <li class=""><a href="#info" class="tabs" data-toggle="tab" aria-expanded="true">More information</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="serial">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Friends</h3>
+                        <p>
+                            Friends is an American television sitcom, created by David Crane and Marta Kauffman,
+                            which originally aired on NBC from September 22, 1994, to May 6, 2004. It lasted ten seasons.
+                            It revolves around a circle of friends living in Manhattan. The series was produced by
+                            Bright/Kauffman/Crane Productions, in association with Warner Bros. Television.
+                            The original executive producers were Kevin S. Bright, Marta Kauffman, and David Crane.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="images" src="img/friends/InfoFriends.jpg" alt="Friends"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="producers">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#kevin" class="tabs" data-toggle="tab" aria-expanded="true">Kevin S. Bright</a></li>
+                <li class=""><a href="#marta" class="tabs" data-toggle="tab" aria-expanded="true">Marta Kauffman</a></li>
+                <li class=""><a href="#david" class="tabs" data-toggle="tab" aria-expanded="true">David Crane</a></li>
+            </ul>
+            <div id="producersContent" class="tab-content">
+                <div class="tab-pane fade active in" id="kevin">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Kevin S. Bright (born November 15, 1954) is an American television
+                                    executive producer and director whose credits include Dream On, Friends, and Joey.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Kevin_S._Bright#Career">
+                                    More information about him...
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/producers/kevinSBrightProducers.jpg" alt="Kevin S. Bright"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="marta">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Marta Fran Kauffman (born September 21, 1956) is an American writer
+                                    and TV producer, best known as the co-creator of the popular sitcom Friends,
+                                    alongside David Crane. Both Crane and Kauffman were also executive producer
+                                    of the show, along with Kevin Bright. Crane and Kauffman have also produced
+                                    Veronica's Closet, starring Kirstie Alley, and Jesse, starring Christina Applegate.
+                                    From 2005–2006 she was an executive producer on Related.
+                                    Both writers were the creators of the 1990 HBO series Dream On.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Marta_Kauffman#Biography">
+                                    More information about her...
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/producers/martaKauffmanProducers.jpg" alt="Marta Kauffman"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="david">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    David Crane (born August 13, 1957) is an American writer and producer.
+                                    He is one of the creators of the television sitcom Friends.
+                                    Crane was born in Philadelphia, the son of veteran WCAU Philadelphia news
+                                    anchor Gene Crane and his first wife Joan. He is Jewish.
+                                    He attended Harriton High School in Rosemont, Pennsylvania,
+                                    and received his bachelor's degree from Brandeis University.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/David_Crane_(producer)#Selected_filmography">
+                                    More information about him...
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/producers/davidCraneProducers.jpg" alt="David Crane"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="actors">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#rachel" class="tabs" data-toggle="tab" aria-expanded="true">Rachel Green</a></li>
+                <li class=""><a href="#monica" class="tabs" data-toggle="tab" aria-expanded="true">Monica Geller</a></li>
+                <li class=""><a href="#phoebe" class="tabs" data-toggle="tab" aria-expanded="true">Phoebe Buffay</a></li>
+                <li class=""><a href="#joey" class="tabs" data-toggle="tab" aria-expanded="true">Joey Tribbiani</a></li>
+                <li class=""><a href="#chandler" class="tabs" data-toggle="tab" aria-expanded="true">Chandler Bing</a></li>
+                <li class=""><a href="#ross" class="tabs" data-toggle="tab" aria-expanded="true">Ross Geller</a></li>
+            </ul>
+            <div id="actorsContent" class="tab-content">
+                <div class="tab-pane fade active in" id="rachel">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Jennifer Aniston portrays Rachel Green, a fashion enthusiast and
+                                    Monica Geller's best friend from childhood. Rachel first moves in with
+                                    Monica in season one after nearly marrying Barry Farber, whom she realizes
+                                    she does not love. Rachel and Ross Geller are later involved in an
+                                    on-again-off-again relationship throughout the series.
+                                    Rachel dates other men during the series, such as an Italian neighbor, Paolo,
+                                    in season one, her client Joshua Bergin in season four, her assistant Tag in
+                                    season seven, and Joey Tribbiani in season ten. Rachel’s first job is as a
+                                    waitress at the coffeehouse Central Perk, but she later becomes an assistant
+                                    buyer at Bloomingdale's in season three, and a buyer at Ralph Lauren in season five.
+                                    Rachel and Ross have a daughter named Emma in "The One Where Rachel Has a Baby,
+                                    Part Two" at the end of season eight. In the final episode of the series
+                                    Ross and Rachel finally confess their love for each other, and
+                                    Rachel gives up a job in Paris to be with him.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/rachel.jpg" alt="Rachel Green"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="monica">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Courteney Cox portrays Monica Geller, the mother hen of the group and a chef,
+                                    known for her perfectionist, bossy, competitive, and obsessive-compulsive nature.
+                                    Monica is often jokingly teased by the others for having been extremely overweight
+                                    as a child, especially by her brother Ross. Monica works as a chef in
+                                    various restaurants throughout the show. Monica’s first serious relationship
+                                    is with long-time family friend Richard Burke, who is twenty-one years her senior.
+                                    The couple maintains a strong relationship until Richard expresses that he does
+                                    not want to have children much to Monica’s dismay. Monica and Chandler Bing later
+                                    start a relationship after spending a night with each other in London in the season
+                                    four finale, leading to their marriage in season seven and adoption of twins at the end of the series.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/monica.jpg" alt="Monica Geller"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="phoebe">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Lisa Kudrow portrays Phoebe Buffay, an eccentric masseuse and self-taught musician.
+                                    Phoebe lived in uptown New York with her mother until her mother committed suicide
+                                    and Phoebe took to the streets. Phoebe is ditsy but street smart, and writes
+                                    and sings her own quirky songs, accompanying herself on the guitar. She has an
+                                    "evil" identical twin named Ursula, who shares Phoebe’s quirkiness, but unlike
+                                    Phoebe seems to be selfish and uncaring. Phoebe is childlike and innocent in disposition.
+                                    She tends to use her past misfortunes such as her mother’s suicide as sympathy ploys.
+                                    Phoebe has three serious relationships: Gary (the cop) in season five, an
+                                    on-and-off relationship with Mike Hannigan in seasons nine and ten, and David
+                                    in season one, which ends when he moves to Minsk on a research grant.
+                                    They reconcile whenever he returns, but she eventually rejects him for Mike
+                                    in season nine when both of them propose to her, leading to their marriage at season ten.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/phoebe.jpg" alt="Phoebe Buffay"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="joey">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Matt LeBlanc portrays Joey Tribbiani, a struggling actor and food lover
+                                    who becomes famous for his role on soap opera Days of Our Lives as Dr. Drake Ramoray.
+                                    Joey is a simple-minded womanizer with many short-term girlfriends.
+                                    Despite his womanizing, Joey is innocent, caring, and well-intentioned.
+                                    Joey often uses the catchphrase pick-up line "How you doin'?" in his attempts
+                                    to win over women, including Rachel's sister Jill. Joey rooms with his best
+                                    friend Chandler for years and later a while with Rachel.
+                                    He falls in love with Rachel in season eight, but Rachel politely tells
+                                    Joey that she does not share the same feelings.
+                                    They eventually date briefly in season ten, but after realizing it will
+                                    not work due to their friendship and more importantly Rachel's complicated
+                                    relationship with Ross, they return to being friends.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/joey.jpg" alt="Joey Tribbiani"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="chandler">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Matthew Perry portrays Chandler Bing, an executive in statistical analysis
+                                    and data reconfiguration for a large multinational corporation.
+                                    Chandler quits his job and becomes a junior copywriter at an advertising agency
+                                    during season nine. Chandler has a peculiar family history being the son of
+                                    an erotic novelist mother and a gay, cross-dressing Las Vegas star father.
+                                    Chandler is known for his sarcastic sense of humor and bad luck in relationships.
+                                    Chandler marries Monica in season seven, and they adopt twins at the end of the series.
+                                    Before his relationship with Monica, Chandler dated Janice Hosenstein in season
+                                    one and subsequently broke up with her many times.
+                                    Matthew Perry has expressed his similarities to the character such as his
+                                    need to break an awkward silence with a joke and difficulties with women when
+                                    first joining the show.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/chandler.jpg" alt="Chandler Bing"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ross">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    David Schwimmer portrays Ross Geller, Monica Geller's older brother,
+                                    a paleontologist working at the Museum of Natural History, and later a tenured professor
+                                    of paleontology at New York University. Ross is a sweet-natured man of good humor,
+                                    although he is often clumsy and socially awkward. Ross is involved in an
+                                    on-again-off-again relationship with Rachel throughout the series.
+                                    He has three failed marriages during the series: Rachel, Emily, and Carol,
+                                    a lesbian who is also the mother of his son, Ben. His failed love life is potentially
+                                    due to his paranoia and jealousy in relationships, and his divorces become
+                                    a point of humor within the series. He and Rachel have a daughter Emma
+                                    by the end of season eight, and they confess that they are still in love
+                                    with each other in the final episode.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="images" src="img/homePageActors/ross.jpg" alt="Ross Geller"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>Friends</h3>
+                        <p>
+                            Filming took place at Warner Bros. Studios in Burbank, California. All ten seasons of
+                            Friends ranked within the top ten of the final television season ratings;
+                            ultimately reaching the No. 1 spot with its eighth season. The series finale on May 6, 2004,
+                            was watched by around 52.5 million American viewers, making it the fifth most watched series
+                            finale in television history, and the most watched television episode of the 2000s decade.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/friends/friendsBath.jpg" alt="Friends"/>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+<script src="libraries/jquery-1.11.3.min.js"></script>
+<script src="libraries/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script src="scripts/homePage.js"></script>
+</body>
+</html>
